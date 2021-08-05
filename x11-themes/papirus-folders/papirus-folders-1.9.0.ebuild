@@ -10,3 +10,9 @@ SRC_URI="https://github.com/PapirusDevelopmentTeam/${PN}/archive/v${PV}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 x86"
+
+DEPEND=""
+RDEPEND="
+        ${DEPEND}
+        x11-themes/papirus-icon-theme
+"
