@@ -14,3 +14,4 @@ $ emaint sync -r astrolul-overlay
 
 ## List of Packages
 - [app-misc/dogefetch](https://github.com/ali019283/dogefetch)
+- [x11-themes/papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders)
