@@ -14,5 +14,5 @@ KEYWORDS="amd64 x86"
 S="${WORKDIR}/${PN}-${P}"
 
 src_install() {
-        emake install PREFIX="${D}/usr"
+	emake install DESTDIR="${D}" PREFIX="/usr"
 }
